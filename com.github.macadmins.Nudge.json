@@ -1,0 +1,62 @@
+{
+    "optionalFeatures": {
+        "acceptableCameraUsage": true,
+        "acceptableScreenSharingUsage": true,
+        "aggressiveUserExperience": true,
+        "aggressiveUserFullScreenExperience": true,
+        "asynchronousSoftwareUpdate": true,
+        "attemptToBlockApplicationLaunches": false,
+        "attemptToFetchMajorUpgrade": false,
+        "enforceMinorUpdates": true,
+        "terminateApplicationsOnLaunch": false
+    },
+    "osVersionRequirements": [
+        {
+            "requiredInstallationDate": "2024-07-08T00:00:00Z",
+            "requiredMinimumOSVersion": "14.5",
+            "targetedOSVersionsRule": "default"
+        }
+    ],
+    "userExperience": {
+        "allowGracePeriods": false,
+        "allowLaterDeferralButton": true,
+        "allowUserQuitDeferrals": true,
+        "allowedDeferrals": 1000000,
+        "allowedDeferralsUntilForcedSecondaryQuitButton": 14,
+        "approachingRefreshCycle": 6000,
+        "approachingWindowTime": 72,
+        "calendarDeferralUnit": "imminentWindowTime",
+        "elapsedRefreshCycle": 300,
+        "gracePeriodInstallDelay": 23,
+        "gracePeriodLaunchDelay": 1,
+        "gracePeriodPath": "/private/var/db/.AppleSetupDone",
+        "imminentRefreshCycle": 600,
+        "imminentWindowTime": 24,
+        "initialRefreshCycle": 18000,
+        "launchAgentIdentifier": "com.github.macadmins.Nudge",
+        "loadLaunchAgent": false,
+        "maxRandomDelayInSeconds": 1200,
+        "noTimers": false,
+        "nudgeRefreshCycle": 60,
+        "randomDelay": false
+    },
+    "userInterface": {
+        "fallbackLanguage": "en",
+        "forceFallbackLanguage": false,
+        "forceScreenShotIcon": false,
+        "showDeferralCount": true,
+        "simpleMode": false,
+        "singleQuitButton": false,
+        "updateElements": [
+            {
+                "_language": "en",
+                "mainHeader": "Your Mac needs updating",
+                "subHeader": "A friendly reminder from your Tech Ops Team",
+                "actionButtonText": "Update Mac",
+                "mainContentNote": "Hi there!",
+                "mainContentText": "Keeping your Mac up to date is important. \n\nTo start the update process, click the 'Update Mac' button above.\n\nFor more help, see contact the Tech Ops Team",
+                "secondaryQuitButtonText": "Not now"
+            }
+        ]
+    }
+}
