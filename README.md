@@ -16,4 +16,4 @@ This allows us to update the min required OS X version without having to redeplo
 4. To update the scheduled run-time or link to a new JSON config file modify this file `payload/Library/LaunchAgents/com.github.macadmins.Nudge.plist` located within the .pkg file, example `/build/Nudge_Suite-1.1.16.81564.pkg/payload/Library/LaunchAgents`
 5. Once complete, execute `~/git/munki/munki-pkg/munkipkg --build Nudge_Suite-1.1.11.81465`, replacing paths and version numbers as appropriate
 6. The completed pkg which should be uploaded to Kandji will be located within the `build` folder within the pkg folder, example `/build/Nudge_Suite-1.1.16.81564.pkg/build`
-7. To update the min version of any UI elements modify `com.github.macadmins.Nudge.json` in this repo, Nudge will automatically pull it down on run time.
+7. To update the min version of OS X required or any UI elements modify `com.github.macadmins.Nudge.json` in this repo, Nudge will automatically pull it down on run time.
