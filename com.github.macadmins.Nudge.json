@@ -61,7 +61,7 @@
                 "subHeader": "A friendly reminder from your Tech Ops Team",
                 "actionButtonText": "Update Mac",
                 "mainContentNote": "Hi there!",
-                "mainContentText": "Keeping your Mac up to date is important. \n\nTo start the update process, click the 'Update Mac' button above.\n\nFor more help, see contact the Tech Ops Team",
+                "mainContentText": "Keeping your Mac up to date is important to help us keep Goodway secure. \n\nTo start the update process, click the 'Update Mac' button above.\n\nFor more help, see contact the Tech Ops Team at helpdesk@goodwaygroup.com or via Freshservice.",
                 "secondaryQuitButtonText": "Not now"
             }
         ]
