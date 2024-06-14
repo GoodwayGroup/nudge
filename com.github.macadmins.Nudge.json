@@ -20,7 +20,8 @@
                     "_language": "en",
                     "aboutUpdateURL": "https://support.apple.com/en-us/HT214106"
                 }
-            ]
+            ],
+            "aboutUpdateURL_disabled": "https://support.apple.com/en-us/HT214106"
         }
     ],
     "userExperience": {
