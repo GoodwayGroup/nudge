@@ -8,7 +8,7 @@ Munki Repo: https://github.com/munki/munki-pkg (Munki is needed to update and re
 All updates files have been uploaded to this repo.
 
 The .plist file defines the schedule run time, which is currently every weekday at 8 AM and it points to the JSON file stored on GitHub.
-This allows us to the update the min required OS X version without having to redploy Nudge
+This allows us to update the min required OS X version without having to redeploy Nudge
 
 1. Download Nudge and clone the Munki Repo
 2. Create a working directory and open a Terminal window to the directory
