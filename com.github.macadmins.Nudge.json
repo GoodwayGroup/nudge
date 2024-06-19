@@ -13,7 +13,7 @@
     "osVersionRequirements": [
         {
             "requiredInstallationDate": "2024-07-08T00:00:00Z",
-            "requiredMinimumOSVersion": "14.5",
+            "requiredMinimumOSVersion": "14.1",
             "targetedOSVersionsRule": "default",
             "aboutUpdateURLs": [
                 {
@@ -28,7 +28,7 @@
         "allowGracePeriods": false,
         "allowLaterDeferralButton": true,
         "allowUserQuitDeferrals": true,
-        "allowedDeferrals": 1000000,
+        "allowedDeferrals": 8,
         "allowedDeferralsUntilForcedSecondaryQuitButton": 14,
         "approachingRefreshCycle": 6000,
         "approachingWindowTime": 72,
@@ -61,7 +61,7 @@
                 "subHeader": "A friendly reminder from your Tech Ops Team",
                 "actionButtonText": "Update Mac",
                 "mainContentNote": "Hi there!",
-                "mainContentText": "Keeping your mac up to date is important to help keep Goodway secure. \n\nTo start the update process, click the 'Update Mac' button above.\n\nFor more help contact the Tech Ops Team at helpdesk@goodwaygroup.com or via Freshservice.",
+                "mainContentText": "Keeping your Mac up to date is important to help keep Goodway secure. \n\nTo start the update process, click the 'Update Mac' button above.\n\nFor more help contact the Tech Ops Team at helpdesk@goodwaygroup.com or via Freshservice at https://goodwaygroup.freshservice.com.",
                 "secondaryQuitButtonText": "Not now"
             }
         ]
