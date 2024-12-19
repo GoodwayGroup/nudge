@@ -12,7 +12,7 @@
     },
     "osVersionRequirements": [
         {
-            "requiredInstallationDate": "2025-01-10T00:00:00Z",
+            "requiredInstallationDate": "2025-01-17T00:00:00Z",
             "requiredMinimumOSVersion": "15.1",
             "targetedOSVersionsRule": "default",
             "aboutUpdateURLs": [
