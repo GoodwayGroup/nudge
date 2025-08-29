@@ -12,16 +12,16 @@
     },
     "osVersionRequirements": [
         {
-            "requiredInstallationDate": "2025-07-07T00:00:00Z",
-            "requiredMinimumOSVersion": "15.4.1",
+            "requiredInstallationDate": "2025-09-15T00:00:00Z",
+            "requiredMinimumOSVersion": "15.6",
             "targetedOSVersionsRule": "default",
             "aboutUpdateURLs": [
                 {
                     "_language": "en",
-                    "aboutUpdateURL": "https://support.apple.com/en-us/122400"
+                    "aboutUpdateURL": "https://support.apple.com/en-us/124149"
                 }
             ],
-            "aboutUpdateURL_disabled": "https://support.apple.com/en-us/122400"
+            "aboutUpdateURL_disabled": "https://support.apple.com/en-us/124149"
         }
     ],
     "userExperience": {
