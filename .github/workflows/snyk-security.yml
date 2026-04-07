@@ -1,0 +1,29 @@
+name: Snyk Security Gate
+
+on:
+  pull_request:
+    branches: ["main"]
+
+permissions:
+  contents: read
+
+jobs:
+  snyk:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run Snyk gate
+        uses: snyk/actions/node@master
+        env:
+          SNYK_TOKEN: a2439980-65d0-48f7-bafc-0c1aca955dd7
+        with:
+          args: --severity-threshold=high
